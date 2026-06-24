@@ -9,8 +9,6 @@ data:
   mapUsers: |
     - userarn: arn:aws:iam::357323381515:user/rishika
       username: rishika
-      groups:
-        - system:masters
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-06-24T14:27:09Z"
@@ -18,3 +16,5 @@ metadata:
   namespace: kube-system
   resourceVersion: "1069"
   uid: ca6e5111-9e37-431e-9e09-4677f71afcc7
+
+

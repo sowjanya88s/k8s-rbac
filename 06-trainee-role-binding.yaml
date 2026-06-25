@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: roboshop-trainee
+  namespace: roboshop
+subjects:
+- kind: Group
+  name: roboshop-trainee      # The name of the group in your Identity Provider
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: roboshop-trainee    # The name of the Role being assigned
+  apiGroup: rbac.authorization.k8s.io

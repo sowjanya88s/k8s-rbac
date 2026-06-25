@@ -13,6 +13,10 @@ data:
      username: rishika
    - groups:
      - roboshop-admin
+     userarn: arn:aws:iam::357323381515:user/daivik
+     username: daivik
+   - groups:
+     - roboshop-admin
      userarn: arn:aws:iam::357323381515:user/moksha
      username: moksha
 kind: ConfigMap
